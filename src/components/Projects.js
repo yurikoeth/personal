@@ -45,11 +45,11 @@ const About = () => {
                 {
                     color ? 
                         (<a href="https://crafthousesi.netlify.app/" target="_blank" rel="noreferrer">
-                            <img className={style.image} src={killsboro}></img>
+                            <img className={style.image} src={killsboro} alt="crafthouse webpage (color)"></img>
                         </a>)
                         :
                         (<a href="https://crafthousesi.netlify.app/" target="_blank" rel="noreferrer">
-                            <img className={style.image} src={killsborobw}></img>
+                            <img className={style.image} src={killsborobw} alt="crafthouse webpage (bw)"></img>
                         </a>)
                 }   
                 </div>
@@ -63,11 +63,11 @@ const About = () => {
                 {
                     color2 ? 
                         (<a href="https://yurikotracker.netlify.app/" target="_blank" rel="noreferrer">
-                        <img className={style.image} src={yurikotracker}></img>
+                        <img className={style.image} src={yurikotracker} alt="yurikotracker webpage (color)"></img>
                     </a>)
                         :
                         (<a href="https://yurikotracker.netlify.app/" target="_blank" rel="noreferrer">
-                        <img className={style.image} src={yurikotrackerbw}></img>
+                        <img className={style.image} src={yurikotrackerbw} alt="yurikotracker webpage (bw)"></img>
                     </a>)
                 }   
                 </div>
