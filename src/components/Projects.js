@@ -44,11 +44,11 @@ const About = () => {
                 <div onMouseEnter={showColor} onMouseLeave={showColor}>
                 {
                     color ? 
-                        (<a href="https://crafthousesi.netlify.app/" target="_blank">
+                        (<a href="https://crafthousesi.netlify.app/" target="_blank" rel="noreferrer">
                             <img className={style.image} src={killsboro}></img>
                         </a>)
                         :
-                        (<a href="https://crafthousesi.netlify.app/" target="_blank">
+                        (<a href="https://crafthousesi.netlify.app/" target="_blank" rel="noreferrer">
                             <img className={style.image} src={killsborobw}></img>
                         </a>)
                 }   
@@ -62,11 +62,11 @@ const About = () => {
           <div onMouseEnter={showColor2} onMouseLeave={showColor2}>
                 {
                     color2 ? 
-                        (<a href="https://yurikotracker.netlify.app/" target="_blank">
+                        (<a href="https://yurikotracker.netlify.app/" target="_blank" rel="noreferrer">
                         <img className={style.image} src={yurikotracker}></img>
                     </a>)
                         :
-                        (<a href="https://yurikotracker.netlify.app/" target="_blank">
+                        (<a href="https://yurikotracker.netlify.app/" target="_blank" rel="noreferrer">
                         <img className={style.image} src={yurikotrackerbw}></img>
                     </a>)
                 }   
