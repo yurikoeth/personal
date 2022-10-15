@@ -31,7 +31,7 @@ const About = () => {
 
   return (
     <div id="About" className={style.container}>
-        <div data-aos="fade-up" className={style.content}>
+        <div data-aos="fade-right" className={style.content}>
             <div className={style.textbox}>
                 <div className={style.passages}>
                     <h2 className={style.heading}>Welcome</h2>
@@ -58,7 +58,7 @@ const About = () => {
                         </div>
                 </div>
             </div>
-           <div className={style.selfieContainer}onMouseEnter={showColor} onMouseLeave={showColor}>
+           <div className={style.selfieContainer} onMouseEnter={showColor} onMouseLeave={showColor}>
                {
                     color ? 
                     (<img src={selfieColor} className={style.selfie} alt="Sean M. (in color)"></img>)
