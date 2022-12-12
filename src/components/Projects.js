@@ -90,11 +90,11 @@ const About = () => {
           <div onMouseEnter={showColor3} onMouseLeave={showColor3}>
                 {
                     color3 ? 
-                        (<a href="https://teal-macaron-303033.netlify.app/" target="_blank" rel="noreferrer">
+                        (<a href="https://sp0tify-clone.netlify.app/" target="_blank" rel="noreferrer">
                         <img className={style.image} src={spotify} alt="yurikotracker webpage (color)"></img>
                     </a>)
                         :
-                        (<a href="https://teal-macaron-303033.netlify.app/" target="_blank" rel="noreferrer">
+                        (<a href="https://sp0tify-clone.netlify.app/" target="_blank" rel="noreferrer">
                         <img className={style.image} src={spotifybw} alt="yurikotracker webpage (bw)"></img>
                     </a>)
                 }   
