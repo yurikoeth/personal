@@ -5,6 +5,8 @@ import killsboro from './assets/killsboro.png'
 import killsborobw from './assets/killsborobw.png'
 import yurikotracker from './assets/yurikotracker.png'
 import yurikotrackerbw from './assets/yurikotrackerbw.png'
+import spotify from './assets/spotify.png'
+import spotifybw from './assets/spotifybw.png'
 
 const About = () => {
 
@@ -18,6 +20,13 @@ const About = () => {
     const showColor2 = () => {
         setColor2(!color2)
     }
+
+    const [color3, setColor3,] = useState(false)
+    const showColor3 = () => {
+        setColor3(!color3)
+    }
+
+    
 
     //Controls scroll animations 
     useEffect(() => {
@@ -74,6 +83,23 @@ const About = () => {
                 <p>Using <u><b>ReactJS</b></u> and <u><b>TailwindCSS</b></u>, I built a website to display cryptocurrency market information real-time! Using <u><strong>CoinGecko API</strong></u> I was 
                 able to pull real time infomation about various coins. Also featuring a <u><i>filter function</i></u>, I was able to create a <u><i>search function</i></u> to only show certain coins desired by 
                 the user. <u><i>Fully mobile and desktop friendly.</i></u>
+                </p>
+          </div>
+
+          <div className={style.projectContainer}>
+          <div onMouseEnter={showColor3} onMouseLeave={showColor3}>
+                {
+                    color3 ? 
+                        (<a href="https://teal-macaron-303033.netlify.app/" target="_blank" rel="noreferrer">
+                        <img className={style.image} src={spotify} alt="yurikotracker webpage (color)"></img>
+                    </a>)
+                        :
+                        (<a href="https://teal-macaron-303033.netlify.app/" target="_blank" rel="noreferrer">
+                        <img className={style.image} src={spotifybw} alt="yurikotracker webpage (bw)"></img>
+                    </a>)
+                }   
+                </div>
+                <p>I built a <strong>Spotify web player</strong> demo that allows users to stream music, similar to the popular Spotify service. Including limited playback controls, I built this site and it's functunalities usingtechnologies such as <u>HTML, CSS, and JavaScript,</u> and may rely on third-party APIs to access the music content.
                 </p>
           </div>
         </div>
